@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import styledComponents from "styled-components";
 import NewsItem from "./NewsItem";
 import usePromise from './lib/usePromise';
+import { Outlet } from 'react-router-dom';
 const NewsListBlock = styledComponents.div`
     display: flex;
     justify-content: center;
@@ -31,6 +32,7 @@ function NewsList(props) {
     const { articles } = response.data;
     return(
         <div>
+            <Outlet></Outlet>
             {
                 articles.map( (article, i) => 
                     <NewsItem key={ i } article={ article } ></NewsItem>

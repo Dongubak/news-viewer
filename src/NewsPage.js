@@ -8,7 +8,7 @@ function NewsPage() {
     return (
         <>
             <Category></Category>
-            <NewsList category={ category }></NewsList>
+            <NewsList category={category}></NewsList>
         </>
     )
 }

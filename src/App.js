@@ -29,10 +29,11 @@ function App() {
   };
   return (
     <div className="App">
+      
         <Routes>
-              <Route path="/" element={ <NewsPage></NewsPage> }>
-                  <Route path=':category' element={ <NewsPage></NewsPage> }></Route>
-              </Route>
+          <Route path="/" element={ <NewsPage></NewsPage> }>
+          </Route>
+          <Route path='/:category' element={ <NewsPage></NewsPage> }></Route>
         </Routes>
     </div>
   );
