@@ -1,6 +1,5 @@
 import './Category.scss';
 import { Nav, Navbar, Container } from 'react-bootstrap';
-import { Link, Route, Swtich, useHistory } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 const categories = [
     {

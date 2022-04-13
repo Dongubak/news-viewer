@@ -1,5 +1,5 @@
 import NewsList from "./NewsList";
-import { useParams, Outlet } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Category from "./Category";
 function NewsPage() {
     const params = useParams();

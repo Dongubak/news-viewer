@@ -1,5 +1,4 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
 import styledComponents from "styled-components";
 import NewsItem from "./NewsItem";
 import usePromise from './lib/usePromise';
