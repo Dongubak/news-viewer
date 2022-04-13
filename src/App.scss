@@ -1,0 +1,15 @@
+$skyblue : #ebfaff;
+$skyblueBoxShadowing : 5px 15px 25px rgba(173, 216, 230, 0.8);
+$defaultBoxShadowing: 10px 10px 30px rgba(0, 0, 0, 0.1);
+$fontAwesomeColor: #666;
+$h2FontColor: #555;
+$pFontColor: #bbb;
+$skyblueBtnBackgroundColor: #444;
+$skyblueBtnBackgroundGradiant: linear-gradient(45deg, #4affff, #35e0f7);
+$skyblueBtnBox-shadow: 5px 10px 20px rgba(0, 255, 255, 0.493);
+
+.App {
+    margin: 0px;
+    padding: 0px;
+    background: $skyblue;
+}
